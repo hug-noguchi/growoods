@@ -1,0 +1,286 @@
+@charset "UTF-8";
+html {
+  margin-top: 0 !important;
+}
+header {
+  height: 100px;
+}
+header .hd {
+  background-color: #e7f0ec;
+}
+h1 {
+  font-weight: bold;
+}
+.contact_inn {
+  padding: calc((240 / 1920) * 100%) calc((0 / 1920) * 100%);
+  max-width: 920px;
+}
+.contact_lead {
+  line-height: 2;
+  padding-bottom: 80px;
+}
+.contact_detail {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 32px 60px;
+}
+.contact_box_txt {
+  font-size: 20px;
+  font-weight: bold;
+  color: #13ae67;
+  text-align: center;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 6px;
+}
+.contact_box_tel {
+  display: block;
+  text-align: center;
+  padding: 10px 8px;
+}
+.contact_box_tel span {
+  font-size: 48px;
+  font-weight: 500;
+  color: #13ae67;
+  position: relative;
+}
+.contact_box_tel span:before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/icon_tel.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 57%;
+  left: -14%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+.contact_box_list {
+  display: block;
+  text-align: center;
+}
+.contact_box_list ul {
+  display: inline-block;
+}
+.contact_box_list li {
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.6;
+}
+.contact_box_list li span {
+  font-weight: bold;
+  padding-right: 14px;
+}
+.form {
+  padding: 80px 0;
+}
+.form table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 80px;
+}
+.form table tr {
+  border-bottom: 1px solid #eaeaea;
+}
+.form table tr th {
+  text-align: left;
+  width: 30%;
+  padding-bottom: 20px;
+}
+.form table tr:last-child th {
+  vertical-align: top;
+}
+.form table tr th span.required {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #ce0000;
+  border-radius: 2px;
+  padding: 1px 8px;
+  margin-left: 34%;
+}
+.form table tr:nth-child(2) th span.required {
+  margin-left: 57%;
+}
+.form table tr th,
+.form table tr td {
+  padding-top: 20px;
+}
+.form table tr td {
+  width: 68%;
+  padding-bottom: 20px;
+}
+.form table tr td input {
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  padding: 12px 16px;
+  width: 100%;
+}
+.form table tr td select {
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  width: 200px;
+  padding: 12px 16px;
+}
+.form table tr td select.business > option {
+  color: #3a3a3a;
+}
+.form table tr td textarea {
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 16px;
+}
+.contact_button {
+  display: flex;
+  justify-content: center;
+}
+.btn_confirm input,
+.btn_send input {
+  font-size: 18px;
+  color: #fff !important;
+  text-align: center;
+  width: 360px;
+  display: block;
+  background-color: #13ae67;
+  border-radius: 38px;
+  padding: 23px 0;
+  margin: 0 auto;
+}
+.btn_buck {
+  margin-right: 24px;
+}
+.btn_buck input {
+  font-size: 18px;
+  color: #13ae67 !important;
+  text-align: center;
+  width: 360px;
+  display: block;
+  border: 1px solid #13ae67;
+  border-radius: 38px;
+  padding: 23px 0;
+  margin: 0 auto;
+}
+.underline {
+  text-decoration: underline;
+}
+/* 確認画面 */
+.contact_confirm {
+  padding: 0;
+}
+
+@media all and (max-width: 480px) {
+  header {
+    height: 60px;
+  }
+  .form table {
+    margin-bottom: 40px;
+  }
+  .contact_inn {
+    padding: 60px 0 40px;
+  }
+  .contact_lead {
+    padding-bottom: 40px;
+  }
+  #contact_confirm .contact_lead {
+    padding-bottom: 0;
+  }
+  .contact_detail {
+    padding: 10px;
+  }
+  .contact_box_txt {
+    font-size: 16px;
+  }
+  .contact_box_tel span {
+    font-size: 24px;
+  }
+  .contact_box_tel span:before {
+    width: 20%;
+    height: 100%;
+    top: 57%;
+    left: -20%;
+  }
+  .form {
+    padding: 40px 0;
+  }
+  .form table tr {
+    display: block;
+  }
+  .form table tr th {
+    padding-bottom: 0;
+  }
+  .form table tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .form table tr th,
+  .form table tr td {
+    font-size: 14px;
+    display: block;
+  }
+  .form table tr th span.required {
+    font-size: 12px;
+    margin-left: 2%;
+  }
+  .form table tr:nth-child(2) th span.required {
+    margin-left: 2%;
+  }
+  .form table tr th,
+  .form table tr td {
+    width: 100%;
+  }
+  .form table tr td select {
+    width: 53%;
+  }
+  .contact_button {
+    display: block;
+  }
+  .btn_buck {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .btn_confirm input,
+  .btn_send input,
+  .btn_buck input {
+    width: 100%;
+  }
+}
+
+/* 完了画面 */
+.thanks {
+  padding: calc((240 / 1920) * 100%) calc((0 / 1920) * 100%);
+}
+#contact_thanks .thanks_inn {
+  max-width: 1024px;
+}
+#contact_thanks .thanks_lead {
+  font-size: 24px;
+  font-weight: bold;
+  color: #13ae67;
+  padding-bottom: 56px;
+}
+#contact_thanks .thanks_txt {
+  line-height: 2;
+  padding-bottom: 80px;
+}
+#contact_thanks .btn {
+  padding: 23px 0;
+}
+#contact_thanks .btn p:after {
+  display: none;
+}
+
+@media all and (max-width: 480px) {
+  #contact_thanks .thanks_lead {
+    font-size: 18px;
+    padding-bottom: 26px;
+  }
+  #contact_thanks .thanks_txt {
+    padding-bottom: 40px;
+  }
+  .btn {
+    width: 100%;
+  }
+}

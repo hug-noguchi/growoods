@@ -1,0 +1,198 @@
+@charset "UTF-8";
+html {
+  margin-top: 0 !important;
+}
+header {
+  height: 100px;
+}
+header .hd {
+  background-color: #e7f0ec;
+}
+h1 {
+  font-weight: bold;
+}
+
+@media all and (min-width: 481px) {
+  header .hd {
+    padding: 14px 40px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  header {
+    height: 60px;
+  }
+}
+
+#ms {
+  padding: 160px 0 124px;
+}
+#ms .ms_inn {
+  margin-bottom: calc((120 / 1200) * 100%) !important;
+}
+#ms h2 .sub_ttl_en {
+  padding-bottom: calc((16 / 1200) * 100%) !important;
+  margin-bottom: calc((56 / 1200) * 100%) !important;
+}
+
+#ms .ms_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#ms .ms_list li {
+  width: 46%;
+}
+#ms .ms_list li:not(:last-child) {
+  margin-bottom: 72px;
+}
+/* #ms .ms_list li.ms_kitasenju {
+  margin-bottom: 96px !important;
+} */
+.foods_inn li:not(:last-child) {
+  margin-bottom: 72px;
+}
+#ms .ms_list li .ms_ttl {
+  display: flex;
+  padding-bottom: 26px;
+}
+#ms .ms_list li .ms_ttl h3 {
+  font-size: 32px;
+  font-size: 1.6vw;
+  color: #13ae67;
+  font-weight: bold;
+  padding-right: 16px;
+}
+#ms .ms_list li .ms_ttl p.ms_place {
+  font-size: 22px;
+  font-size: 1.1vw;
+  color: #fff;
+  font-weight: bold;
+  background-color: #13ae67;
+  border-radius: 54px;
+  padding: calc((3 / 260) * 100%) calc((20 / 260) * 100%);
+}
+#ms .ms_list li .ms_ttl p.ms_place span {
+  position: relative;
+  line-height: 1.4;
+}
+#ms .ms_list li .ms_ttl p.ms_place span:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 20px;
+  background-image: url(../images/develop/icon_map.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 52%;
+  left: -17%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+#ms .ms_list li .ms_table tr {
+  border-bottom: 1px solid #eaeaea;
+}
+#ms .ms_list li .ms_table th {
+  font-size: 15px;
+  width: 24%;
+}
+#ms .ms_list li .ms_table tr:first-child th {
+  padding-bottom: 12px;
+}
+#ms .ms_list li .ms_table tr:not(:first-child) th,
+#ms .ms_list li .ms_table tr:not(:first-child) td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#ms .ms_list li .ms_table td {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+.hp {
+  color: #008cd5;
+}
+
+.thumbs_list {
+  display: flex;
+}
+.thumbs_list li {
+  width: 90px !important;
+  margin-bottom: 24px !important;
+}
+.thumbs_list li:not(:last-child) {
+  margin-right: 8px;
+}
+
+.slick-initialized .slick-slide {
+  width: 33.3% !important;
+  margin-bottom: 8px !important;
+  margin-right: 0 !important;
+}
+.thumbs_list li.slick-active {
+  opacity: 1;
+}
+
+@media all and (max-width: 480px) {
+  #ms {
+    padding: 20px 0;
+  }
+  #ms .ms_list {
+    display: block;
+  }
+  #ms .ms_list li {
+    width: 100%;
+  }
+  #ms .ms_list li:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  #ms .ms_list li .ms_ttl {
+    display: block;
+    padding-bottom: 16px;
+  }
+  #ms .ms_list li .ms_ttl h3 {
+    font-size: 16px;
+    padding-bottom: 12px;
+  }
+  #ms .foods_inn .ms_list .ms_ttl h3 {
+    padding-bottom: 0 !important;
+  }
+  #ms .ms_list li .ms_ttl p.ms_place {
+    font-size: 14px;
+    display: inline-block;
+  }
+  #ms .ms_list li .ms_ttl p.ms_place span:before {
+    width: 12px;
+    height: 16px;
+    left: -14%;
+  }
+  table {
+    width: 100%;
+  }
+  #ms .ms_list li .ms_table tr {
+    display: block;
+  }
+  #ms .ms_list li .ms_table th {
+    font-size: 13px;
+    width: 36%;
+    display: block;
+  }
+  #ms .ms_list li .ms_table td {
+    font-size: 14px;
+    display: block;
+  }
+  #ms .ms_list li .ms_table tr:not(:first-child) th {
+    padding-bottom: 0;
+  }
+  #ms .ms_list li .ms_table tr:not(:first-child) td {
+    padding-bottom: 12px;
+  }
+  #ms .ms_inn {
+    margin-bottom: calc((60 / 1200) * 100%) !important;
+  }
+  .thumbs_list li {
+    width: 100% !important;
+  }
+}

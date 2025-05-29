@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="arrow" transform="translate(48) rotate(90)">
+    <g id="楕円形_17" data-name="楕円形 17" transform="translate(0)" fill="#fff" stroke="#13ae67" stroke-width="1">
+      <circle cx="24" cy="24" r="24" stroke="none"/>
+      <circle cx="24" cy="24" r="23.5" fill="none"/>
+    </g>
+    <g id="arrow-forward-fill" transform="translate(17.287 18)">
+      <path id="パス_15" data-name="パス 15" d="M.857,6.857H11.022L7.911,10.593a.858.858,0,1,0,1.32,1.1l4.285-5.142a1.022,1.022,0,0,0,.077-.129c0-.043.043-.069.06-.111a.823.823,0,0,0,0-.617c0-.043-.043-.069-.06-.111a1.02,1.02,0,0,0-.077-.129L9.231.309a.858.858,0,1,0-1.32,1.1l3.111,3.737H.857a.857.857,0,1,0,0,1.714Z" fill="#13ae67"/>
+    </g>
+  </g>
+</svg>

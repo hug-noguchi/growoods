@@ -1,0 +1,144 @@
+@charset "UTF-8";
+html {
+  margin-top: 0 !important;
+}
+header {
+  height: 100px;
+}
+header .hd {
+  background-color: #e7f0ec;
+}
+h1 {
+  font-weight: bold;
+}
+
+#idea {
+  padding: calc((240 / 1920) * 100%) calc((0 / 1920) * 100%) calc((80 / 1920) * 100%);
+}
+h2 {
+  text-align: center;
+  padding-bottom: 26px;
+}
+h2 span {
+  position: relative;
+}
+h2 span:before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 26px;
+  background-image: url(../images/service/deco_ttl_02.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -26px;
+  left: 36%;
+}
+#idea .idea_box {
+  text-align: center;
+  display: block;
+  position: relative;
+}
+#idea .idea_box .idea_txt {
+  text-align: left;
+  display: inline-block;
+  max-width: 560px;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 2;
+}
+.idea_img {
+  position: absolute;
+  top: 196%;
+  left: 0;
+  right: 0;
+}
+
+#daihyou {
+  padding: 40px 0 120px;
+}
+.daihyou_inn {
+  display: flex;
+  justify-content: space-between;
+}
+.daihyou_txt {
+  max-width: 800px;
+  width: 68%;
+}
+.daihyou_txt p {
+  line-height: 2;
+}
+.daihyou_img {
+  width: 28%;
+}
+.daihyou_name {
+  padding-top: 60px;
+}
+.daihyou_name span {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 16px;
+}
+
+#summary {
+  background-color: #e7f0ec;
+  z-index: -1;
+  position: relative;
+}
+
+table th {
+  color: #006934;
+  text-align: left;
+  width: 26%;
+}
+table th,
+table td {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  padding: 16px 0;
+  line-height: 1.5;
+}
+
+@media all and (max-width: 480px) {
+  header {
+    height: 60px;
+  }
+  #idea {
+    padding: 90px 20px 20px;
+  }
+  #idea .idea_box .idea_txt {
+    width: 100%;
+  }
+  .idea_img {
+    top: 108%;
+  }
+  .idea_img img {
+    border-radius: 24px;
+  }
+  #daihyou {
+    padding: 40px 0 0;
+  }
+  .daihyou_txt {
+    width: 100%;
+  }
+  .daihyou_img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .daihyou_name {
+    padding-top: 30px;
+  }
+  table th {
+    width: 35%;
+  }
+  table th,
+  table td {
+    font-size: 14px;
+  }
+  .company_map {
+    vertical-align: top;
+  }
+  #summary {
+    padding: 30px 0;
+  }
+}

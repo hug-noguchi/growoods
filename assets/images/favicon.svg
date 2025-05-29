@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #0dac67;
+      }
+
+      .cls-3 {
+        fill: #604c3f;
+      }
+
+      .cls-4 {
+        fill: #8dc21f;
+      }
+
+      .cls-5 {
+        fill: #006934;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_2">
+    <g id="_レイヤー_1-2">
+      <rect class="cls-1" width="700" height="700" rx="112" ry="112"/>
+      <rect class="cls-1" width="700" height="700" rx="112" ry="112"/>
+    </g>
+  </g>
+  <g id="logo">
+    <g>
+      <g>
+        <rect class="cls-3" x="195.86" y="660.98" width="204.26" height="39.02"/>
+        <rect class="cls-3" x="234.88" y="584.48" width="165.24" height="39.02"/>
+        <rect class="cls-3" x="273.9" y="506.44" width="126.23" height="39.02"/>
+        <rect class="cls-3" x="312.91" y="428.4" width="87.21" height="39.02"/>
+        <rect class="cls-3" x="351.93" y="350.37" width="48.19" height="39.02"/>
+      </g>
+      <circle class="cls-2" cx="86.77" cy="408.9" r="82.62"/>
+      <circle class="cls-2" cx="191.82" cy="134.06" r="82.62"/>
+      <circle class="cls-2" cx="567.53" cy="200.72" r="82.62"/>
+      <circle class="cls-4" cx="73.95" cy="232.28" r="51.07"/>
+      <circle class="cls-4" cx="346.34" cy="51.07" r="51.07"/>
+      <circle class="cls-4" cx="644.78" cy="368.71" r="51.07"/>
+      <circle class="cls-4" cx="224.13" cy="326.27" r="51.07"/>
+      <circle class="cls-4" cx="421.51" cy="232.28" r="51.07"/>
+      <circle class="cls-4" cx="509.82" cy="525.95" r="51.07"/>
+      <circle class="cls-5" cx="181.85" cy="512.15" r="31.57"/>
+      <circle class="cls-5" cx="484.91" cy="62.91" r="31.57"/>
+      <circle class="cls-5" cx="472.58" cy="375.38" r="31.57"/>
+      <circle class="cls-5" cx="625.28" cy="499.38" r="31.57"/>
+      <circle class="cls-5" cx="305.24" cy="232.28" r="31.57"/>
+    </g>
+  </g>
+</svg>
