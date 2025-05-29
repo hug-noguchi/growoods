@@ -23,7 +23,9 @@
           <span class="ttl_en">Growoods</span>とは？
         </h2>
         <p class="about_txt fadeIn">
-          この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+          「医・食から笑顔を」をモットーに医療機関、飲食店の運営サポート、コンサルティングを行っています。<br>
+          また日本が世界に誇るIPと飲食店とのコラボ、グッズ販売などを行っています。<br>
+          医・食の充実が日本の未来のためになると信じて、進化し続けます。
         </p>
       </div>
       <div class="about_bg"></div>
@@ -44,8 +46,8 @@
             <a href="/service#service01">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business01.jpg" alt="MS事業部" class="pc">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business01_sp.jpg" alt="MS事業部" class="sp">
-              <h3>MS事業部</h3>
-              <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+              <h3>MS事業部（メディカルサービス）</h3>
+              <p>医療法人の運営サポート、コンサルティング事業</p>
             </a>
           </li>
           <li class="delay-time02 box fadeIn">
@@ -53,7 +55,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business02.jpg" alt="飲食事業部" class="pc">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business02_sp.jpg" alt="飲食事業部" class="sp">
               <h3>飲食事業部</h3>
-              <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+              <p>飲食店の運営サポート、スタッフ派遣、コンサルティング事業</p>
             </a>
           </li>
           <li class="delay-time04 box fadeIn">
@@ -61,7 +63,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business03.jpg" alt="IP事業部" class="pc">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business03_sp.jpg" alt="IP事業部" class="sp">
               <h3>IP事業部</h3>
-              <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+              <p>IPコンテンツを活用した飲食店の販売促進、認知拡大、マーケティング</p>
             </a>
           </li>
         </ul>

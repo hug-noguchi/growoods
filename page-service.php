@@ -31,9 +31,7 @@
         <div class="service_img sp">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/service01_sp.jpg" alt="MS事業部（メディカルサービス）">
         </div>
-        <p class="service_txt">
-          この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
-        </p>
+        <p class="service_txt">医療法人の運営サポート、コンサルティング事業</p>
       </div>
       <div class="service_img pc">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/service01.jpg" alt="MS事業部（メディカルサービス）">
@@ -59,9 +57,7 @@
           <div class="service_img fadeIn sp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/service02_sp.jpg" alt="飲食事業部">
           </div>
-          <p class="service_txt fadeIn">
-            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
-          </p>
+          <p class="service_txt fadeIn">飲食店の運営サポート、スタッフ派遣、コンサルティング事業</p>
         </div>
       </div>
       <div class="shops">

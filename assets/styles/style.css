@@ -746,10 +746,13 @@ footer .ft_left {
   width: 34%;
 }
 footer .ft_left img {
-  margin-bottom: 64px;
+  margin-bottom: 40px;
+  /* margin-bottom: 64px; */
 }
-footer .company_detail {
-  padding-bottom: 48px;
+/* footer .company_detail { */
+footer .honsha_address {
+  padding-top: 24px;
+  padding-bottom: 40px;
 }
 footer .name {
   font-size: 18px;
@@ -823,10 +826,9 @@ footer .googlemap iframe {
   footer .company_detail {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 38px;
+    flex-wrap: wrap;
   }
-  footer .company_detail_left,
-  footer .googlemap {
+  footer .company_detail_left {
     width: 48% !important;
   }
   footer .name {
@@ -874,7 +876,11 @@ footer .googlemap iframe {
     padding: 16px 0;
     display: block;
   }
-  footer .googlemap,
+  footer .googlemap {
+    width: 100%;
+    margin-bottom: 38px;
+    margin-top: 30px;
+  }
   footer .googlemap iframe {
     width: 100%;
   }
