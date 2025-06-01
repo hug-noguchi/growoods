@@ -46,9 +46,6 @@ h1 {
 #ms .ms_list li:not(:last-child) {
   margin-bottom: 72px;
 }
-/* #ms .ms_list li.ms_kitasenju {
-  margin-bottom: 96px !important;
-} */
 .foods_inn li:not(:last-child) {
   margin-bottom: 72px;
 }
@@ -195,4 +192,11 @@ h1 {
   .thumbs_list li {
     width: 100% !important;
   }
+}
+
+.slick-slide img {
+  border-radius: 20px;
+}
+#ms .ms_list li .thumbs_list li img {
+  border-radius: 2px;
 }

@@ -47,7 +47,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business01.jpg" alt="MS事業部" class="pc">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/business01_sp.jpg" alt="MS事業部" class="sp">
               <h3>MS事業部（メディカルサービス）</h3>
-              <p>医療法人の運営サポート、コンサルティング事業</p>
+              <p>医療法人の運営サポート、コンサルティング事業、M&A事業</p>
             </a>
           </li>
           <li class="delay-time02 box fadeIn">

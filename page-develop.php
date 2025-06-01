@@ -78,6 +78,58 @@
         </li>
         <li>
           <div class="ms_ttl">
+            <h3>錦糸町院</h3>
+            <p class="ms_place"><span>錦糸町駅北口 徒歩2分</span></p>
+          </div>
+          <div class="ms_img">
+            <ul class="js-slider-6">
+              <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_kinshichou.jpg" alt="錦糸町院">
+              </li>
+              <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_kinshichou02.jpg" alt="錦糸町院">
+              </li>
+              <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_kinshichou03.jpg" alt="錦糸町院">
+              </li>
+            </ul>
+            <div class="thumbs_dots"></div>
+          </div>
+          <table class="ms_table">
+            <tbody>
+              <tr>
+                <th>医院名</th>
+                <td>医療法人社団 爽緑会 ふたば在宅クリニック</td>
+              </tr>
+              <tr>
+                <th>所在地</th>
+                <td>〒130-0013 東京都墨田区錦糸1-4-14 長嶋ビル 4階</td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td>03-6658-8175</td>
+              </tr>
+              <tr>
+                <th>FAX</th>
+                <td>03-6658-8176</td>
+              </tr>
+              <tr>
+                <th>受付時間</th>
+                <td>9:00〜18:00</td>
+              </tr>
+              <tr>
+                <th>休診日</th>
+                <td>日曜・祝日・年末年始・夏季</td>
+              </tr>
+              <tr>
+                <th>ホームページ</th>
+                <td><a href="https://www.futabaclinic.jp/kinshichou/" target="_blank" class="hp">https://www.futabaclinic.jp/kinshichou/</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+        <li>
+          <div class="ms_ttl">
             <h3>新小岩院</h3>
             <p class="ms_place"><span>新小岩駅 徒歩1分</span></p>
           </div>
@@ -234,6 +286,58 @@
         </li>
         <li>
           <div class="ms_ttl">
+            <h3>北習志野院</h3>
+            <p class="ms_place"><span>北習志野駅前 徒歩1分</span></p>
+          </div>
+          <div class="ms_img">
+            <ul class="js-slider-6">
+              <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_kitanarashino.jpg" alt="北習志野院">
+              </li>
+              <li style="display: none;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="北習志野院">
+              </li>
+              <li style="display: none;">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="北習志野院">
+              </li>
+            </ul>
+            <div class="thumbs_dots"></div>
+          </div>
+          <table class="ms_table">
+            <tbody>
+            <tr>
+                <th>医院名</th>
+                <td>医療法人社団 千葉爽緑会 ふたば在宅クリニック</td>
+              </tr>
+              <tr>
+                <th>所在地</th>
+                <td>〒274-0063 千葉県船橋市習志野台2-6-1 小林ビル 3階-C</td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td>047-402-6536</td>
+              </tr>
+              <tr>
+                <th>FAX</th>
+                <td>047-402-6537</td>
+              </tr>
+              <tr>
+                <th>受付時間</th>
+                <td>9:00〜18:00</td>
+              </tr>
+              <tr>
+                <th>休診日</th>
+                <td>日曜・祝日・年末年始・夏季</td>
+              </tr>
+              <tr>
+                <th>ホームページ</th>
+                <td><a href="https://www.futabaclinic.jp/kitanarashino/" target="_blank" class="hp">https://www.futabaclinic.jp/kitanarashino/</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+        <li>
+          <div class="ms_ttl">
             <h3>佐倉院</h3>
             <p class="ms_place"><span>京成臼井駅 徒歩30秒</span></p>
           </div>
@@ -332,6 +436,58 @@
               <tr>
                 <th>ホームページ</th>
                 <td><a href="https://www.futabaclinic.jp/yachiyo/" target="_blank" class="hp">https://www.futabaclinic.jp/yachiyo/</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+        <li>
+          <div class="ms_ttl">
+            <h3>本八幡院</h3>
+            <p class="ms_place"><span>京成八幡・本八幡駅 徒歩1分</span></p>
+          </div>
+          <div class="ms_img">
+            <ul class="js-slider-6">
+              <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_motoyawata.jpg" alt="本八幡院">
+              </li>
+              <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="本八幡院">
+              </li>
+              <li>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="本八幡院">
+              </li>
+            </ul>
+            <div class="thumbs_dots"></div>
+          </div>
+          <table class="ms_table">
+            <tbody>
+            <tr>
+                <th>医院名</th>
+                <td>医療法人社団 千葉爽緑会 ふたば在宅クリニック</td>
+              </tr>
+              <tr>
+                <th>所在地</th>
+                <td>〒272-0021 千葉県市川市八幡3-3-2グランドターミナルタワー1階 J108号</td>
+              </tr>
+              <tr>
+                <th>電話番号</th>
+                <td>047-316-2480</td>
+              </tr>
+              <tr>
+                <th>FAX</th>
+                <td>047-316-2481</td>
+              </tr>
+              <tr>
+                <th>受付時間</th>
+                <td>9:00〜18:00</td>
+              </tr>
+              <tr>
+                <th>休診日</th>
+                <td>日曜・祝日・年末年始・夏季</td>
+              </tr>
+              <tr>
+                <th>ホームページ</th>
+                <td><a href="https://www.futabaclinic.jp/motoyawata/" target="_blank" class="hp">https://www.futabaclinic.jp/motoyawata/</a></td>
               </tr>
             </tbody>
           </table>
@@ -502,6 +658,5 @@
         });
     });
 </script>
-
 
 <?php get_footer(); ?>

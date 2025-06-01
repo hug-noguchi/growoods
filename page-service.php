@@ -31,7 +31,7 @@
         <div class="service_img sp">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/service01_sp.jpg" alt="MS事業部（メディカルサービス）">
         </div>
-        <p class="service_txt">医療法人の運営サポート、コンサルティング事業</p>
+        <p class="service_txt">医療法人の運営サポート、コンサルティング事業、M&A事業</p>
       </div>
       <div class="service_img pc">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/service01.jpg" alt="MS事業部（メディカルサービス）">
