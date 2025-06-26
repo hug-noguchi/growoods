@@ -32,10 +32,11 @@
       </p>
       <div class="contact_detail">
         <p class="contact_box_txt">お電話でのお問い合わせ</p>
-        <a href="tel:0368043136" class="contact_box_tel"><span>03-6804-3136</span></a>
+        <a href="tel:0358430151" class="contact_box_tel"><span>03-5843-0151</span></a>
         <div class="contact_box_list">
           <ul>
-            <li><span>本社</span>東京都港区六本木7-13-10 Tomasビル2F</li>
+            <li><span>事業所</span>東京都港区六本木7-8-7 ハイホーム六本木ビル3階（医療法人社団爽緑会本部）</li>
+            <li><span>本社</span>東京都港区六本木7-13-10 Tomasビル201</li>
             <li><span>Email</span><a href="mailto:info@growoods.jp">info@growoods.jp</a></li>
           </ul>
         </div>

@@ -99,7 +99,7 @@ h1 {
   background-color: #ce0000;
   border-radius: 2px;
   padding: 1px 8px;
-  margin-left: 34%;
+  margin-left: 2%;
 }
 .form table tr:nth-child(2) th span.required {
   margin-left: 57%;
@@ -222,7 +222,6 @@ h1 {
   }
   .form table tr th span.required {
     font-size: 12px;
-    margin-left: 2%;
   }
   .form table tr:nth-child(2) th span.required {
     margin-left: 2%;

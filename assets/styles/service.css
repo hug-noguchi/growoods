@@ -327,3 +327,19 @@ h1 {
     width: unset !important;
   }
 }
+
+@media all and (max-width: 480px) {
+  #service img {
+    width: 332px;
+    height: 235px;
+    display: block;
+  }
+  .slider_service .slick-img img {
+    width: 332px;
+    height: 235px;
+  }
+  #service .icon_insta img {
+    width: unset;
+    height: unset;
+  }
+}

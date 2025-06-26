@@ -1,5 +1,4 @@
 </main>
-
 <footer>
   <div class="ft_bg"></div>
   <div class="inn">
@@ -30,7 +29,7 @@
         <li><a href="/company/">COMPANY</a></li>
         <li><a href="/contact/">CONTACT</a></li>
       </ul>
-      <p class="copy pc">© 2024 Growoods Inc.</p>
+      <p class="copy pc">© <?php echo date("Y"); ?> Growoods Inc.</p>
     </div>
     <div class="ft_left sp">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="ロゴGrowoods">
@@ -52,7 +51,6 @@
         </div>
         <div class="googlemap sp">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12965.95577120964!2d139.729971!3d35.664961!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b61fc59b317%3A0x55e3e0c356ad0036!2z44G144Gf44Gw5Zyo5a6F44Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sjp!4v1725517317667!5m2!1sja!2sjp" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6482.977885431033!2d139.72510575376498!3d35.6649610021402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b61fc59b317%3A0x55e3e0c356ad0036!2z44G144Gf44Gw5Zyo5a6F44Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sjp!4v1724907114842!5m2!1sja!2sjp" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
         </div>
       </div>
       <ul class="ft_navi">
@@ -67,10 +65,9 @@
     <div class="googlemap pc">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6482.977885431033!2d139.72510575376498!3d35.6649610021402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b61fc59b317%3A0x55e3e0c356ad0036!2z44G144Gf44Gw5Zyo5a6F44Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sjp!4v1724907114842!5m2!1sja!2sjp" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <p class="copy sp">© 2024 Growoods Inc.</p>
+    <p class="copy sp">© <?php echo date("Y"); ?> Growoods Inc.</p>
   </div>
 </footer>
-
 <?php wp_footer(); ?>
 
 <script>
@@ -121,21 +118,6 @@
       });
     });
   }
-  $(function(){
-    $('a[href^="#"]').click(function() {
-      var speed = 500; // スクロール速度(ミリ秒)
-      var href = $(this).attr("href");
-      var target = $(href === "#" || href === "" ? 'html' : href);
-      var position = target.offset().top;
-      $('html, body').animate({scrollTop:position}, speed, 'swing');
-      return false;
-    });
-  });
 </script>
-
-
-
-
 </body>
-
 </html>

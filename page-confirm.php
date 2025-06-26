@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
 <style>
-  #button_move {
+  #button_move,
+  .form table tr th span.required {
     display: none;
   }
 </style>

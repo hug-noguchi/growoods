@@ -40,7 +40,7 @@ h2 span:before {
   position: relative;
 }
 #idea .idea_box .idea_txt {
-  text-align: left;
+  text-align: center;
   display: inline-block;
   max-width: 560px;
   width: 50%;
@@ -53,31 +53,8 @@ h2 span:before {
   left: 0;
   right: 0;
 }
-
-#daihyou {
-  padding: 40px 0 120px;
-}
-.daihyou_inn {
-  display: flex;
-  justify-content: space-between;
-}
-.daihyou_txt {
-  max-width: 800px;
-  width: 68%;
-}
-.daihyou_txt p {
-  line-height: 2;
-}
-.daihyou_img {
-  width: 28%;
-}
-.daihyou_name {
-  padding-top: 60px;
-}
-.daihyou_name span {
-  font-size: 20px;
-  font-weight: bold;
-  padding-left: 16px;
+.company_img {
+  padding-bottom: 120px;
 }
 
 #summary {
@@ -115,18 +92,8 @@ table td {
   .idea_img img {
     border-radius: 24px;
   }
-  #daihyou {
-    padding: 40px 0 0;
-  }
-  .daihyou_txt {
-    width: 100%;
-  }
-  .daihyou_img {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .daihyou_name {
-    padding-top: 30px;
+  .company_img {
+    padding-bottom: 40px;
   }
   table th {
     width: 35%;

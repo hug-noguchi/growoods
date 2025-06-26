@@ -99,7 +99,7 @@
             <tbody>
               <tr>
                 <th>医院名</th>
-                <td>医療法人社団 爽緑会 ふたば在宅クリニック</td>
+                <td>医療法人社団 爽緑会 ふたば在宅クリニック 錦糸町院</td>
               </tr>
               <tr>
                 <th>所在地</th>
@@ -128,7 +128,7 @@
             </tbody>
           </table>
         </li>
-        <li>
+        <li class="fadeIn">
           <div class="ms_ttl">
             <h3>新小岩院</h3>
             <p class="ms_place"><span>新小岩駅 徒歩1分</span></p>
@@ -151,7 +151,7 @@
             <tbody>
               <tr>
                 <th>医院名</th>
-                <td>医療法人社団 爽緑会 ふたば在宅クリニック</td>
+                <td>医療法人社団 爽緑会 ふたば在宅クリニック 新小岩院</td>
               </tr>
               <tr>
                 <th>所在地</th>
@@ -203,7 +203,7 @@
             <tbody>
             <tr>
                 <th>医院名</th>
-                <td>医療法人社団 爽緑会 ふたば在宅クリニック</td>
+                <td>医療法人社団 爽緑会 ふたば在宅クリニック 北千住院</td>
               </tr>
               <tr>
                 <th>所在地</th>
@@ -255,7 +255,7 @@
             <tbody>
             <tr>
                 <th>医院名</th>
-                <td>医療法人社団 爽緑会 ふたば在宅クリニック</td>
+                <td>医療法人社団 爽緑会 ふたば在宅クリニック 埼玉院</td>
               </tr>
               <tr>
                 <th>所在地</th>
@@ -284,7 +284,7 @@
             </tbody>
           </table>
         </li>
-        <li>
+        <li class="fadeIn">
           <div class="ms_ttl">
             <h3>北習志野院</h3>
             <p class="ms_place"><span>北習志野駅前 徒歩1分</span></p>
@@ -294,10 +294,10 @@
               <li>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_kitanarashino.jpg" alt="北習志野院">
               </li>
-              <li style="display: none;">
+              <li>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="北習志野院">
               </li>
-              <li style="display: none;">
+              <li>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="北習志野院">
               </li>
             </ul>
@@ -307,7 +307,7 @@
             <tbody>
             <tr>
                 <th>医院名</th>
-                <td>医療法人社団 千葉爽緑会 ふたば在宅クリニック</td>
+                <td>医療法人社団 千葉爽緑会 ふたば在宅クリニック 北習志野院</td>
               </tr>
               <tr>
                 <th>所在地</th>
@@ -336,7 +336,7 @@
             </tbody>
           </table>
         </li>
-        <li>
+        <li class="fadeIn">
           <div class="ms_ttl">
             <h3>佐倉院</h3>
             <p class="ms_place"><span>京成臼井駅 徒歩30秒</span></p>
@@ -359,7 +359,7 @@
             <tbody>
             <tr>
                 <th>医院名</th>
-                <td>医療法人社団 千葉爽緑会 ふたば在宅クリニック</td>
+                <td>医療法人社団 千葉爽緑会 ふたば在宅クリニック 佐倉院</td>
               </tr>
               <tr>
                 <th>所在地</th>
@@ -388,7 +388,7 @@
             </tbody>
           </table>
         </li>
-        <li>
+        <li class="fadeIn">
           <div class="ms_ttl">
             <h3>八千代院</h3>
             <p class="ms_place"><span>勝田台駅 徒歩30秒</span></p>
@@ -411,7 +411,7 @@
             <tbody>
             <tr>
                 <th>医院名</th>
-                <td>医療法人社団 千葉爽緑会 ふたば在宅クリニック</td>
+                <td>医療法人社団 千葉爽緑会 ふたば在宅クリニック 八千代院</td>
               </tr>
               <tr>
                 <th>所在地</th>
@@ -440,7 +440,7 @@
             </tbody>
           </table>
         </li>
-        <li>
+        <li class="fadeIn">
           <div class="ms_ttl">
             <h3>本八幡院</h3>
             <p class="ms_place"><span>京成八幡・本八幡駅 徒歩1分</span></p>
@@ -463,7 +463,7 @@
             <tbody>
             <tr>
                 <th>医院名</th>
-                <td>医療法人社団 千葉爽緑会 ふたば在宅クリニック</td>
+                <td>医療法人社団 爽緑会 ふたば在宅クリニック 本八幡院</td>
               </tr>
               <tr>
                 <th>所在地</th>
@@ -508,7 +508,7 @@
           <div class="ms_img">
             <ul class="js-slider-6">
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_redd.jpg" alt="dining bar REDD">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_redd01.jpg" alt="dining bar REDD">
               </li>
               <li>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_redd02.jpg" alt="dining bar REDD">
@@ -527,12 +527,16 @@
               </tr>
               <tr>
                 <th>電話番号</th>
-                <td>03-6804-3136</td>
+                <td>03-6384-5005</td>
               </tr>
               <tr>
                 <th>営業時間</th>
-                <td>月-木 19:00 - 27:00<br>
-                金・土・祝前日 19:00 - 29:00</td>
+                <td>
+                  火〜土 20:00〜5:00<br>
+                  日・月 定休日
+                </td>
+                <!-- <td>月-木 19:00 - 27:00<br>
+                金・土・祝前日 19:00 - 29:00</td> -->
               </tr>
             </tbody>
           </table>
@@ -544,13 +548,13 @@
           <div class="ms_img">
             <ul class="js-slider-6">
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_redd2.jpg" alt="dining bar REDD2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_redd2_01.jpg" alt="dining bar REDD2">
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="dining bar REDD2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_redd2_02.jpg" alt="dining bar REDD2">
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="dining bar REDD2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_redd2_03.jpg" alt="dining bar REDD2">
               </li>
             </ul>
             <div class="thumbs_dots"></div>
@@ -567,9 +571,14 @@
               </tr>
               <tr>
                 <th>営業時間</th>
-                <td>火-木 21:00 - 27:00<br>
+                <td>
+                  月〜木 17:00〜2:00<br>
+                  金・土 17:00〜5:00<br>
+                  日　　 定休日
+                </td>
+                <!-- <td>火-木 21:00 - 27:00<br>
                 金・土・祝前日 21:00 - 29:00<br>
-                日・月 定休日</td>
+                日・月 定休日</td> -->
               </tr>
             </tbody>
           </table>
@@ -581,13 +590,13 @@
           <div class="ms_img">
             <ul class="js-slider-6">
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_symbol.jpg" alt="BAR Symbol">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_symbol01.jpg" alt="BAR Symbol">
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="BAR Symbol">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_symbol02.jpg" alt="BAR Symbol">
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="BAR Symbol">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_symbol03.jpg" alt="BAR Symbol">
               </li>
             </ul>
             <div class="thumbs_dots"></div>
@@ -600,13 +609,17 @@
               </tr>
               <tr>
                 <th>電話番号</th>
-                <td>090-5317-1512</td>
+                <td>03-6447-2039</td>
               </tr>
               <tr>
                 <th>営業時間</th>
-                <td>火-金 17:00 - 29:00<br>
+                <td>
+                  日〜木 17:00〜2:00<br>
+                  金・土 17:00〜3:00
+                </td>
+                <!-- <td>火-金 17:00 - 29:00<br>
                 土・日 15:00 - 29:00<br>
-                月 定休日</td>
+                月 定休日</td> -->
               </tr>
             </tbody>
           </table>
