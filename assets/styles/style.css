@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@media all and (max-width: 480px) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
+  }
+}
+
 body {
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-style: normal;
@@ -35,13 +42,11 @@ h2 {
 
 h3 {
   font-size: 20px;
-  /* font-size: 1.04vw; */
   color: #13ae67;
 }
 
 p {
   font-size: 16px;
-  /* font-size: 1vw; */
 }
 
 .logo_fadein {
@@ -79,7 +84,6 @@ p {
 }
 
 /* 共通 */
-
 .hd_box {
   position: relative;
 }
@@ -250,7 +254,7 @@ section {
   display: block;
   width: 22px;
   height: 16px;
-  background-image: url(https://test.growoods.co.jp/wp-content/themes/growoods/assets/images/deco_ttl.svg);
+  background-image: url(../images/deco_ttl.svg);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -283,7 +287,6 @@ section {
     font-size: 62px !important;
   }
   .heading_ttl {
-    /* padding: 50px 20px 30px; */
     padding: 30px 20px 10px;
   }
   .heading_ttl:after {
@@ -432,7 +435,7 @@ section {
   display: block;
   width: 22px;
   height: 16px;
-  background-image: url(https://test.growoods.co.jp/wp-content/themes/growoods/assets/images/deco_ttl_g.svg);
+  background-image: url(../images/deco_ttl_g.svg);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -539,7 +542,11 @@ section {
 
 /* 事業所・店舗 */
 #shops h2 {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+}
+#shops .shops_inn .sub_ttl_en {
+  padding-bottom: calc((16 / 1200) * 100%) !important;
+  margin-bottom: calc((56 / 1200) * 100%) !important;
 }
 #shops .shops_list {
   display: flex;
@@ -561,6 +568,9 @@ section {
 }
 #shops .shops_list li p span {
   font-size: 15px;
+}
+#shops .shops_list li .shops_image img {
+  border-radius: 10px;
 }
 .btn {
   font-size: 18px;
@@ -595,7 +605,7 @@ section {
     padding: 0;
   }
   #shops h2 {
-    padding-bottom: 10px;
+    padding-bottom: 40px;
   }
   #shops .shops_list li {
     width: 48%;
@@ -618,6 +628,9 @@ section {
   }
   #shops .shops_list li p span {
     font-size: 14px;
+  }
+  #shops .shops_list li .shops_image img {
+    border-radius: 4px;
   }
   #shops .btn_shops {
     width: 100%;
@@ -649,7 +662,7 @@ section {
   display: block;
   width: 22px;
   height: 16px;
-  background-image: url(https://test.growoods.co.jp/wp-content/themes/growoods/assets/images/deco_ttl_g.svg);
+  background-image: url(../images/deco_ttl_g.svg);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -674,6 +687,12 @@ section {
 #recruit .btn_recruit {
   text-align: left;
 }
+#recruit .recruit_inn > p.recruit_notes {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1.6;
+}
 @media all and (max-width: 480px) {
   #recruit .recruit_box {
     background: url(../images/bg_recruit_sp.jpg) no-repeat;
@@ -697,7 +716,8 @@ section {
 
 /* スライダー */
 .slider_shops {
-  padding: 80px 0 140px;
+  /* padding: 80px 0 140px; */
+  padding: 100px 0 160px;
   margin-top: calc((694 / 1920) * 100%);
 }
 .slider_shops .slick-slider .slick-track {
@@ -709,9 +729,14 @@ section {
   width: 394px !important;
   margin-right: 16px;
 }
+.slick-list,
+.slick-slide,
+.slick-slide img {
+  border-radius: 20px !important;
+}
 @media all and (max-width: 480px) {
   .slider_shops {
-    padding: 0 0 60px;
+    padding: 60px 0;
     margin-top: calc((700 / 480) * 100%);
   }
   #recruit .btn_recruit {
@@ -747,9 +772,7 @@ footer .ft_left {
 }
 footer .ft_left img {
   margin-bottom: 40px;
-  /* margin-bottom: 64px; */
 }
-/* footer .company_detail { */
 footer .honsha_address {
   padding-top: 24px;
   padding-bottom: 40px;
@@ -1010,7 +1033,6 @@ footer .googlemap iframe {
   width: 200vw;
   height: 200vw;
   background: #e7f0ec;
-  /* border-radius: 50%; */
   transition: all 0.4s ease;
   flex: none;
   transform: scale(0);
