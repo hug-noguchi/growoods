@@ -44,10 +44,6 @@ h1 {
   max-width: 960px;
   width: 56%;
 }
-#motto {
-  background-color: #e7f0ec;
-  padding: calc((120 / 1920) * 100%) calc((0 / 1920) * 100%) calc((364 / 1920) * 100%);
-}
 h2 {
   text-align: center;
   padding-bottom: 26px;
@@ -67,27 +63,9 @@ h2 span:before {
   top: -26px;
   left: 36%;
 }
-#motto .motto_box {
-  text-align: center;
-  display: block;
-  position: relative;
-}
-#motto .motto_box .motto_txt {
-  text-align: left;
-  display: inline-block;
-  max-width: 560px;
-  width: 50%;
-  margin: 0 auto;
-  line-height: 2;
-}
-.motto_img {
-  position: absolute;
-  top: 196%;
-  left: 0;
-  right: 0;
-}
 #job {
-  margin-top: 290px;
+  background-color: #e7f0ec;
+  padding: 140px 0 120px;
 }
 .job_list {
   display: flex;
@@ -134,12 +112,6 @@ h2 span:before {
 h3 {
   font-size: 2.08vw;
   padding-bottom: 16px;
-}
-#doctor {
-  background-color: #e7f0ec;
-  padding-bottom: 100px;
-  padding-top: 100px;
-  margin-top: -100px;
 }
 table th {
   color: #006934;
@@ -204,24 +176,11 @@ table td {
   .features_img img {
     border-radius: 16px;
   }
-  #motto {
-    padding: 60px 20px 80px;
-  }
-  #motto .motto_box .motto_txt {
-    width: 100%;
-  }
-  .motto_img {
-    top: 108%;
-  }
-  .motto_img img {
-    border-radius: 16px;
-  }
   #job {
-    margin-top: 300px;
-    /* padding-bottom: 100px; */
+    padding: 40px 0;
   }
   .job_inn {
-    padding: 40px 0 80px;
+    padding: 40px 0 0;
   }
   .job_list {
     display: block;
@@ -246,15 +205,6 @@ table td {
     width: 28px;
     height: 28px;
     right: 2%;
-  }
-  #doctor {
-    background-color: #e7f0ec;
-    padding-bottom: 60px;
-    padding-top: 60px;
-    margin-top: -60px;
-  }
-  #doctor .inn {
-    padding: 0;
   }
   h3 {
     font-size: 16px;
@@ -303,5 +253,21 @@ table td {
     padding-bottom: 40px;
     padding-top: 60px;
     margin-top: -60px;
+  }
+}
+
+.features_btn a.staff_btn {
+  border-radius: 50px;
+}
+.features_btn a.ishi_btn {
+  margin: 30px auto 20px;
+}
+.features_btn p.features_notes {
+  text-align: center;
+  font-size: 14px;
+}
+@media all and (max-width: 480px) {
+  .features_btn a.ishi_btn {
+    margin: 8px auto;
   }
 }
