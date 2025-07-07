@@ -295,10 +295,10 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_kitanarashino.jpg" alt="北習志野院">
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="北習志野院">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_kitanarashino02.jpg" alt="北習志野院">
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="北習志野院">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_kitanarashino03.jpg" alt="北習志野院">
               </li>
             </ul>
             <div class="thumbs_dots"></div>
@@ -451,10 +451,10 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_motoyawata.jpg" alt="本八幡院">
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="本八幡院">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_motoyawata02.jpg" alt="本八幡院">
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/noimage.png" alt="本八幡院">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/develop/ms_motoyawata03.jpg" alt="本八幡院">
               </li>
             </ul>
             <div class="thumbs_dots"></div>
