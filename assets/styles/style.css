@@ -690,7 +690,7 @@ section {
 #recruit .recruit_inn > p.recruit_notes {
   font-size: 14px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   line-height: 1.6;
 }
 @media all and (max-width: 480px) {
@@ -716,8 +716,7 @@ section {
 
 /* スライダー */
 .slider_shops {
-  /* padding: 80px 0 140px; */
-  padding: 100px 0 160px;
+  padding: 110px 0 160px;
   margin-top: calc((694 / 1920) * 100%);
 }
 .slider_shops .slick-slider .slick-track {
@@ -736,7 +735,7 @@ section {
 }
 @media all and (max-width: 480px) {
   .slider_shops {
-    padding: 60px 0;
+    padding: 70px 0;
     margin-top: calc((700 / 480) * 100%);
   }
   #recruit .btn_recruit {
