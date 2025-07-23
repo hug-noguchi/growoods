@@ -78,7 +78,7 @@
               <p class="shops_info fadeIn">
                 〒106-0032 東京都港区六本木7-13-10 Tomasビル2F<br>
                 TEL：03-6384-5005<br>
-                営業時間：火〜土 20:00〜5:00<br>
+                営業時間：火〜土 19:00〜5:00<br>
                 　　　　　日・月 定休日
               </p>
               <div class="icon_insta fadeIn">
@@ -137,8 +137,8 @@
               <p class="shops_info fadeIn">
                 東京都港区六本木7-18-16 川窪ビル1F<br>
                 TEL：03-6447-2039<br>
-                営業時間：日〜木 17:00〜2:00<br>
-                　　　　　金・土 17:00〜3:00
+                営業時間：日〜木 16:00〜2:00<br>
+                　　　　　金・土 16:00〜3:00
               </p>
               <div class="icon_insta fadeIn">
                 <a href="https://www.instagram.com/symbol_roppongi/" target="_blank">
